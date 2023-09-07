@@ -1,0 +1,601 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+
+
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.bg-img {
+    background-image: url(../photos/BG.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 110vh;
+
+}
+
+
+
+.layer {
+
+    background-image: linear-gradient(to right,
+            #000000c6,
+            #000000b3,
+            #00000027,
+            #ffffff23,
+            rgba(255, 255, 255, 0.175));
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.navbar-collapse .navbar-nav .nav-item a {
+    color: rgb(255, 255, 255);
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    font-weight: 600;
+    font-size: large;
+}
+
+
+.navbar-collapse .navbar-nav .nav-item a:hover {
+    color: aqua;
+
+
+}
+
+.font-left {
+    width: 1px;
+    height: 60%;
+    position: absolute;
+    top: 15%;
+    left: 7%;
+    background-color: azure;
+}
+
+.font-right {
+    width: 1px;
+    height: 80%;
+    position: absolute;
+    top: 15%;
+    right: 7%;
+    background-color: azure;
+}
+
+.min-font-left {
+    width: 1px;
+    height: 8%;
+    position: absolute;
+    bottom: 7%;
+    left: 7%;
+    background-color: azure;
+}
+
+.nav-right h6 {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    bottom: 17%;
+    left: 5%;
+    transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+}
+
+.nav-right .icons {
+    position: absolute;
+    right: 2%;
+    top: 33%;
+
+}
+
+.nav-right .icons i {
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.nav-right .icons i:hover {
+   color: aqua;
+    
+}
+
+
+.btns-left .child-1:hover {
+    width: 10px;
+    height: 10px;
+    background-color: aqua;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    margin: -4px -4px;
+
+
+
+}
+
+.btns-left .child-1 {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    margin: -4px -4px;
+
+
+}
+
+.btns-left .child-0 {
+    width: 10px;
+    height: 10px;
+    background-color: aqua;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    margin: -4px -4px;
+
+
+}
+
+/* .btns-left a{margin: 100% 0;} */
+
+
+
+.btns-left {
+    position: absolute;
+    left: 2%;
+    top: 33%;
+}
+.btns-left .parent-0{ padding: 15px 15px;
+    margin: 100% 0;}
+
+.btns-left .parent-0:hover {
+    height: 10px;
+    padding: 15px 15px;
+    width: 10px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    margin: 100% 0;
+    border: 1px rgb(255, 255, 255) solid;
+}
+
+.btns-left .parent-1 {
+    height: 10px;
+    padding: 15px 15px;
+    width: 10px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    margin: 100% 0;
+    border: 1px rgb(255, 255, 255) solid;
+}
+
+
+
+.view-1 {
+    color: rgb(255, 255, 255);
+    padding: 14% 7%;
+    font-size: 100%;
+}
+
+.view-1 h1 {
+    font-weight: 900;
+    width: 80%;
+
+}
+
+.view-1 h5 {
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    width: 80%;
+}
+
+.view-1 p {
+    font-size: 13px;
+    width: 80%;
+}
+
+.view-1 button {
+    padding: 5% 8%;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border: 2px aqua solid;
+    background-color: black;
+    margin-top: 20px;
+}
+
+.view-1 a {
+
+    color: rgb(255, 255, 255);
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+.view-1 a:hover {
+
+    color: aqua;
+}
+
+.view-1 .img-1 {
+    width: 68%;
+
+}
+
+
+.view-1 .img-2 {
+    width: 31%;
+}
+
+.span-color {
+
+    color: aqua;
+    font-weight: 700;
+    font-size: x-large;
+
+
+}
+
+.bg-color {
+    background-color: rgb(23, 22, 22);
+    height: 100%;
+    width: 100%;
+}
+
+
+.font-left-2 {
+    width: 1px;
+    height: 80%;
+    position: absolute;
+    top: 15%;
+    left: 7%;
+    background-color: azure;
+}
+
+.About img {
+    width: 60%;
+    transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+
+}
+
+.About h2 {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+
+}
+
+.About p {
+    color: rgb(255, 255, 255);
+}
+
+/* .text-about{
+    padding: 40% 0%; */
+
+.text-about button {
+    padding: 3% 20%;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border: 2px aqua solid;
+    background-color: black;
+    margin-top: 20px;
+}
+
+.text-about a {
+    color: rgb(255, 255, 255);
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+.text-about a:hover {
+
+    color: aqua;
+}
+
+
+.About {
+    padding: 10% 7%;
+}
+
+
+@media screen and (max-width:992px) {
+    .view-1 .img-1 {
+        width: 40%;
+    }
+
+    .view-1 .img-2 {
+        width: 20%;
+    }
+
+    .view-1 {
+        padding: 9% 7%;
+    }
+
+    .bg-color-2 .parent-8, .parent-1 {
+        display: none;
+    }
+
+    .bg-color-2 .font-left-3 {
+        width: 100%;
+        height: 1px;
+        margin: auto;
+        background-color: aqua;
+    }
+
+
+}
+
+@media screen and (max-width:662px) {
+    .view-1 .img-1 {
+        width: 40%;
+    }
+
+    .view-1 .img-2 {
+        width: 20%;
+    }
+
+    .view-1 {
+        padding: 100px 7%;
+    }
+
+    .font-left-2,
+    .font-right,
+    .font-left,
+    .min-font-left,
+    .min-font-left,
+    .nav-right h6,
+    .btns-left .child-0,
+    .btns-left .child-1,
+    .btns-left .parent-0 {
+        display: none;
+    }
+}
+
+.carousel-indicators button {
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+
+}
+
+.bg-color-2 img {
+    width: 80%;
+
+
+}
+
+.bg-color-2 {
+
+    background-color: rgb(42, 41, 41);
+    height: 100%;
+    width: 100%;
+
+
+
+}
+
+.bg-color-2 h2 {
+
+
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+.bg-color-2 h3 {
+
+
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+.bg-color-2 p {
+
+    font-size: 13px;
+    width: 65%;
+    color: rgb(255, 255, 255);
+
+}
+
+.font-left-3 {
+    width: 1px;
+    height: 100%;
+    margin: auto;
+
+    background-color: aqua;
+}
+
+.bg-color-2 .parent-8 {
+    height: 10px;
+    padding: 15px 15px;
+    width: 10px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    margin: 20px 0;
+    border: 1px rgb(255, 255, 255) solid;
+}
+
+.bg-color-2 .child-9 {
+    width: 10px;
+    height: 10px;
+    background-color: aqua;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    margin: -4px -4px;
+
+
+
+}
+
+.bg-color-3 {
+
+    background-color: #17181A;
+    height: 100%;
+    width: 100%;
+
+
+
+}
+
+.bg-color-3 h2 {
+
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+.bg-color-3 h4 {
+
+    color: rgb(255, 255, 255);
+    padding-bottom: 20px;
+    
+}
+
+.bg-color-3 .bold {
+
+    color: rgb(255, 255, 255);
+    
+    
+}
+.bg-color-3 .opacity {
+
+    color: rgb(255, 255, 255);
+   font-size: 13px;
+    
+}
+
+.bg-color-4 {
+
+    background-color: #000000;
+    height: 100%;
+    width: 100%;
+
+
+
+}
+
+.bg-color-4 a {
+    color: rgb(255, 255, 255);
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    font-weight: 600;
+    font-size: large;
+    padding: 1%;
+}
+
+
+.bg-color-4 a:hover,.bg-color-4 i {
+    color: aqua;
+
+}
+
+.bg-color-4 .container-fluid{
+padding: 7% 0;
+}
+
+.bg-color-4 i {
+    color: aqua;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+
+}
+
+.bg-color-4 i:hover {
+    color: rgb(255, 255, 255);
+
+}
+.last-font i{
+    color: white;
+    width: 1px;
+    height: 80%;
+    position: absolute;
+    top: 15%;
+    left: 6.5%;
+    
+
+}
+
+.bg-color-2 button {
+    padding: 7% 25%;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border: 2px aqua solid;
+    background-color: rgb(42, 41, 41);
+   margin: 60px auto;
+
+}
+
+.bg-color-2 a {
+    color: rgb(255, 255, 255);
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+ 
+}
+
+.bg-color-2 a:hover {
+    color: aqua;
+    
+ 
+}
